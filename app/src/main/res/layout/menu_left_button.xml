@@ -1,0 +1,43 @@
+
+    <com.li.fabrice.brefweather.view.ArcMenu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:liman="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menu"
+        liman:position="left_bottom"
+        liman:radius="150dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuButton"
+            android:background="@drawable/menu" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/addcity"
+            android:tag="addcity"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings"
+            android:tag="settings"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/temperatureunit"
+            android:tag="temperatureunit"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/curve"
+            android:tag="curve"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exchange_rate"
+            android:tag="exchangerate"/>
+
+    </com.li.fabrice.brefweather.view.ArcMenu>
+
